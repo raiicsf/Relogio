@@ -1,0 +1,39 @@
+
+body{
+    height: 98vh;
+    width: 98vw;
+    background-image: linear-gradient(rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#relogio{
+    display: flex;
+    height: 200px;
+    box-shadow: 15px 15px 35px;
+    background-color: rgb(230, 129, 224);
+    border-radius: 15px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(173, 216, 230, 0.664);
+    border-radius: 15px;
+}
+
+.texto{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+span{
+    font-size: 130px;
+    
+}
